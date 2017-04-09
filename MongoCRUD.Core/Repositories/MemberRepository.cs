@@ -53,7 +53,7 @@ namespace MongoCRUD.Core.Repositories
                 ReturnDocument = ReturnDocument.After
             };
 
-            return this.Collection.FindOneAndUpdate(input.Item1, input.Item2,option);
+            return this.Collection.FindOneAndUpdate(input.Item1, input.Item2, option);
         }
 
         public DeleteResult Delete(string id)
