@@ -1,0 +1,13 @@
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/MongoCRUD.Test.deps.json
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/MongoCRUD.Test.runtimeconfig.json
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/MongoCRUD.Test.runtimeconfig.dev.json
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/obj/Debug/netcoreapp1.1/MongoCRUD.Test.AssemblyInfo.cs
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/MongoCRUD.Test.dll
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/MongoCRUD.Test.pdb
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/MongoCRUD.Core.dll
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/bin/Debug/netcoreapp1.1/MongoCRUD.Core.pdb
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/obj/Debug/netcoreapp1.1/MongoCRUD.Test.dll
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Test/obj/Debug/netcoreapp1.1/MongoCRUD.Test.pdb

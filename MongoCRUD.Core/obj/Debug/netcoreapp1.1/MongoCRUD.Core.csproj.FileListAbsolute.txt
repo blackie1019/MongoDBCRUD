@@ -1,0 +1,6 @@
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Core/bin/Debug/netcoreapp1.1/MongoCRUD.Core.deps.json
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Core/bin/Debug/netcoreapp1.1/MongoCRUD.Core.dll
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Core/bin/Debug/netcoreapp1.1/MongoCRUD.Core.pdb
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Core/obj/Debug/netcoreapp1.1/MongoCRUD.Core.AssemblyInfo.cs
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Core/obj/Debug/netcoreapp1.1/MongoCRUD.Core.dll
+/Users/blackie/Desktop/DEV/blackie1019/MongoCRUD/MongoCRUD.Core/obj/Debug/netcoreapp1.1/MongoCRUD.Core.pdb
