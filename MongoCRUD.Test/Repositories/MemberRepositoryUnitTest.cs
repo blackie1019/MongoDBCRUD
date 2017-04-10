@@ -9,7 +9,7 @@ namespace MongoCRUD.Test.Repositories
     [TestClass]
     public class MemberRepositoryUnitTest
     {
-
+[IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_GetAll()
         {
@@ -18,7 +18,7 @@ namespace MongoCRUD.Test.Repositories
             Assert.IsNotNull(data);
             Assert.IsTrue(data.Count > 0);
         }
-
+[IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_Get()
         {
@@ -28,7 +28,7 @@ namespace MongoCRUD.Test.Repositories
             Assert.IsNotNull(data);
             Assert.AreEqual(data.Name, "karma");
         }
-
+[IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_Update()
         {
@@ -43,7 +43,7 @@ namespace MongoCRUD.Test.Repositories
             Assert.AreEqual(data.MatchedCount, 1);
             Assert.AreEqual(data.ModifiedCount, 1);
         }
-
+[IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_UpdateAndFitch()
         {
@@ -58,7 +58,7 @@ namespace MongoCRUD.Test.Repositories
             Assert.AreNotEqual(data.Balance, oriBalance);
         }
 
-        [IgnoreAttribute]
+        //[IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_Insert()
         {
@@ -71,7 +71,7 @@ namespace MongoCRUD.Test.Repositories
             MemberRepository.Instance.Insert(member);
         }
 
-        // [IgnoreAttribute]
+        [IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_Delete()
         {
