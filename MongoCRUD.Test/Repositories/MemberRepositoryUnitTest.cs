@@ -9,26 +9,27 @@ namespace MongoCRUD.Test.Repositories
     [TestClass]
     public class MemberRepositoryUnitTest
     {
-[IgnoreAttribute]
+        [IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_GetAll()
         {
             var data = MemberRepository.Instance.Get();
-            
+
             Assert.IsNotNull(data);
             Assert.IsTrue(data.Count > 0);
         }
-[IgnoreAttribute]
+
+        [IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_Get()
         {
-            var id = "58dd45ae819dff4bfccc144a";
+            var id = "58ee3339e8ebb446cbb47afc";
             var data = MemberRepository.Instance.Get(id);
 
             Assert.IsNotNull(data);
-            Assert.AreEqual(data.Name, "karma");
+            Assert.AreEqual(data.Balance, 0.12345M);
         }
-[IgnoreAttribute]
+        [IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_Update()
         {
@@ -43,7 +44,7 @@ namespace MongoCRUD.Test.Repositories
             Assert.AreEqual(data.MatchedCount, 1);
             Assert.AreEqual(data.ModifiedCount, 1);
         }
-[IgnoreAttribute]
+        [IgnoreAttribute]
         [TestMethod]
         public void MemberRepository_UpdateAndFitch()
         {
@@ -65,7 +66,7 @@ namespace MongoCRUD.Test.Repositories
             var member = new Member()
             {
                 Name = string.Format("Blackie_{0}", DateTime.Now.ToString("yyyymmddhhmmss")),
-                Balance = 0
+                Balance = 0.12345678987654321M
             };
 
             MemberRepository.Instance.Insert(member);

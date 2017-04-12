@@ -9,11 +9,11 @@ namespace MongoCRUD.Core.Pocos
         [BsonElement("name")]
         public string Name { get; set; }
 
-        // MogoDB 3.4, Support BsonDecimal128
-        //[BsonElement("balance"), BsonSerializer(typeof(MongoDB.Bson.BsonDecimal128))]
+        // MogoDB 3.4, Support BsonDecimal128, Decimal (28-29)
+        [BsonElement("balance"),BsonRepresentation(BsonType.Decimal128)]
 
-        // Below than 3.4, only convert to Double (15-16). Decimal (28-29)
-        [BsonElement("balance"), BsonRepresentation(BsonType.Double)]
+        // Below than 3.4, only convert to Double (15-16)
+        //[BsonElement("balance"), BsonRepresentation(BsonType.Double)]
         public decimal Balance { get; set; }
     }
 }

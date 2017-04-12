@@ -12,6 +12,15 @@ namespace MongoCRUD.Core.Repositories
         
         protected CommonRepository()
         {
+            this.Credential = MongoCredential.CreateCredential("demo", "dbuser", "pass.123");
+            this.ClientSettings  = new MongoClientSettings
+            {
+                Credentials = new[] { this.Credential },
+                Server = new MongoServerAddress("localhost", 32768)
+            };
+            this.Client = new MongoClient(this.ClientSettings);
+            this.Database = this.Client.GetDatabase("demo");
+            /* 
             this.Credential = MongoCredential.CreateCredential("poker-band", "dbuser", "pass.123");
             this.ClientSettings  = new MongoClientSettings
             {
@@ -20,6 +29,7 @@ namespace MongoCRUD.Core.Repositories
             };
             this.Client = new MongoClient(this.ClientSettings);
             this.Database = this.Client.GetDatabase("poker-band");
+            */
         }
     }
 }

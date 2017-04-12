@@ -26,6 +26,16 @@ namespace MongoCRUD.Core.Repositories
             return this.Collection.Find(new BsonDocument()).ToList();
         }
 
+        public IList<Member> GetWithBehavior()
+        {
+            var filter = Builders<Member>.Filter.Eq("balance", 201.00);
+            var option = new FindOptions(){
+
+            };
+
+            return this.Collection.Find(filter,option).ToList();
+        }
+
         public Member Get(string id)
         {
             var filter = this.GenerateFilterInput(id);
